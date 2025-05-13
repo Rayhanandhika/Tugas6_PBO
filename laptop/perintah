@@ -1,0 +1,11 @@
+src/
+├── laptop/
+│   ├── Laptop.java
+│   ├── AbstractLaptop.java
+│   ├── Acer.java
+│   ├── Toshiba.java
+│   └── MacBook.java
+└── main/
+    └── Main.java
+javac laptop/*.java main/*.java
+java main.Main
